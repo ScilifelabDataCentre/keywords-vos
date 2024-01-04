@@ -1,0 +1,12 @@
+#VOSviewer
+VOSviewer-Online
+
+# OSX
+.DS_Store
+
+# backups
+*~
+\#*\#
+
+# Other stuff
+Plot_vis_info.txt
