@@ -1,4 +1,4 @@
-# ![SciLifeLab Data Platform website](img/logos/sciLifeLab_logo.png)
+# ![SciLifeLab Data Platform website](img/sciLifeLab_logo.png)
 
 # Co-ocurrence of keywords
 
@@ -12,8 +12,6 @@ This site shows co-occurrence plots created using [VOS viewer](https://github.co
     - first `git clone --depth=1 https://github.com/neesjanvaneck/VOSviewer-Online.git`
     - then `sed -i "" "s|publicPath: env.dev ? '/' : undefined,|publicPath: env.dev ? '/vosviewer/' : undefined,|g" VOSviewer-Online/webpack.config.babel.js`
     - then `sed -i "s|to: absolute('dist', bundleName, 'images/|to: absolute('dist', bundleName, 'vosviewer-online/images/|g" VOSviewer-Online/webpack.config.babel.js`
-
-- `index.html` file is the landing file, tweak it as neccesary
 
 #### Create and push the docker image
 
