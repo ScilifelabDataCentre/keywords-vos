@@ -33,9 +33,7 @@ jobs:
         include:
           - dockerfile: Dockerfile
             images: ghcr.io/scilifelabdatacentre/data-scilifelab-se
-    permissions:
-      contents: read
-      packages: write
+    permissions: write-all
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
