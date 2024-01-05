@@ -162,25 +162,25 @@ export default (env = defaultEnv) => {
   ];
 
   if (appMode === 'vosviewer') {
-    config.plugins.push(
-      new CopyPlugin({
-        patterns: [
-          ...copyPatternsImages,
-          {
-            from: resolve(__dirname, 'data', 'JOI_2007-2016_co-authorship_map.txt'),
-            to: absolute('dist', bundleName, 'data/JOI_2007-2016_co-authorship_map.txt'),
-          },
-          {
-            from: resolve(__dirname, 'data', 'JOI_2007-2016_co-authorship_network.txt'),
-            to: absolute('dist', bundleName, 'data/JOI_2007-2016_co-authorship_network.txt'),
-          },
-          {
-            from: resolve(__dirname, 'data', 'JOI_2007-2016_co-authorship_network.json'),
-            to: absolute('dist', bundleName, 'data/JOI_2007-2016_co-authorship_network.json'),
-          },
-        ],
-      }),
-    );
+    // config.plugins.push(
+    //   new CopyPlugin({
+    //     patterns: [
+    //       ...copyPatternsImages,
+    //       {
+    //         from: resolve(__dirname, 'data', 'JOI_2007-2016_co-authorship_map.txt'),
+    //         to: absolute('dist', bundleName, 'data/JOI_2007-2016_co-authorship_map.txt'),
+    //       },
+    //       {
+    //         from: resolve(__dirname, 'data', 'JOI_2007-2016_co-authorship_network.txt'),
+    //         to: absolute('dist', bundleName, 'data/JOI_2007-2016_co-authorship_network.txt'),
+    //       },
+    //       {
+    //         from: resolve(__dirname, 'data', 'JOI_2007-2016_co-authorship_network.json'),
+    //         to: absolute('dist', bundleName, 'data/JOI_2007-2016_co-authorship_network.json'),
+    //       },
+    //     ],
+    //   }),
+    // );
   } else if (appMode === 'dimensions') {
     config.plugins.push(
       new CopyPlugin({
