@@ -32,7 +32,7 @@ jobs:
       matrix:
         include:
           - dockerfile: Dockerfile
-            images: ghcr.io/scilifelabdatacentre/data-scilifelab-se
+            images: ghcr.io/scilifelabdatacentre/keywords-vos
     permissions: write-all
     steps:
       - name: Check out the repo
