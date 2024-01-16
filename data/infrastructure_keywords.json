@@ -1516,7 +1516,7 @@
 			},
 			{
 				"id": 5416,
-				"label": "In Situ",
+				"label": "In situ",
 				"x": -0.5759,
 				"y": 0.0429,
 				"cluster": 1,
@@ -1533,7 +1533,7 @@
 			},
 			{
 				"id": 5418,
-				"label": "In Vitro",
+				"label": "In vitro",
 				"x": -0.1043,
 				"y": 0.1302,
 				"cluster": 1,
@@ -1550,7 +1550,7 @@
 			},
 			{
 				"id": 5420,
-				"label": "In Vivo",
+				"label": "In vivo",
 				"x": -0.0168,
 				"y": -0.0796,
 				"cluster": 1,
@@ -2281,7 +2281,7 @@
 			},
 			{
 				"id": 7427,
-				"label": "Nmr",
+				"label": "NMR",
 				"x": 0.0790,
 				"y": 0.7326,
 				"cluster": 2,
@@ -2298,7 +2298,7 @@
 			},
 			{
 				"id": 7433,
-				"label": "Nmr Spectroscopy",
+				"label": "NMR Spectroscopy",
 				"x": 0.4158,
 				"y": 0.5997,
 				"cluster": 2,
@@ -2859,7 +2859,7 @@
 			},
 			{
 				"id": 9363,
-				"label": "Rna Sequencing",
+				"label": "RNA sequencing",
 				"x": 0.1903,
 				"y": -0.0901,
 				"cluster": 1,

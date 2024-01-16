@@ -190,7 +190,7 @@
 			},
 			{
 				"id": 713,
-				"label": "Ancient Dna",
+				"label": "Ancient DNA",
 				"x": 1.0451,
 				"y": 0.1826,
 				"cluster": 4,
@@ -853,7 +853,7 @@
 			},
 			{
 				"id": 3102,
-				"label": "Cryo-Em",
+				"label": "Cryo-EM",
 				"x": -0.8222,
 				"y": 0.6621,
 				"cluster": 1,
